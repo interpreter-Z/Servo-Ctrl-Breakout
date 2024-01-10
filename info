@@ -1,0 +1,173 @@
+{
+  "uuid": "544bf39214eb7e165b12c4ebe5406c32",
+  "path": "Offline/ServoCtrlExt_mk1",
+  "name": "ServoCtrlExt_mk1",
+  "content": "",
+  "created_at": "2023-12-24 21:25:39",
+  "updated_at": "2024-01-02 23:49:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a4243481fb3ac368724609f2a6a0577e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cec5ab210a5148afb426506417eeb5b3": 1,
+        "365fa2e1e30c355b19179fc7dc483d23": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "5cbe824183374fac8e4c1ae848199ce3": 2,
+        "b0248eb51e084227889f2cb84eab79c4": 2,
+        "8edb2c097a6d4e4fa774be4f4c61d92b": 1,
+        "fa4fc8f3f0894ebc8c2b522870244f82": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1n",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier Part": "C361191",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C2",
+          {
+            "BOM_Supplier Part": "C342825",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "DW254W-11-05-85",
+          1,
+          "CONN-TH_5P-P2.54_DEALON_DW254W-11-05-85",
+          "H1",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C2935995",
+            "puuid": "769279e654e54068ac9f491fc2098eaa",
+            "uuid": "fa4fc8f3f0894ebc8c2b522870244f82"
+          }
+        ],
+        [
+          "DZ254W-11-03-65",
+          1,
+          "HDR-TH_3P-P2.54-H-M-W10.0",
+          "H2",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C2935928",
+            "puuid": "b40d6e4cbc1440108c4aae2ba3760d0b",
+            "uuid": "8edb2c097a6d4e4fa774be4f4c61d92b"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C497930",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "200",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "C543831",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1-2199298-2",
+          1,
+          "DIP-8_L10.2-W10.2-P2.54-LS7.6-BL",
+          "SK1",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C305904",
+            "puuid": "3f6ef94e1963401e9ceec09213ee59e4",
+            "uuid": "cec5ab210a5148afb426506417eeb5b3"
+          }
+        ],
+        [
+          "ACS712ELCTR-05B-T",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C44471",
+            "puuid": "71450838f2174409b429143f6acc9d2a",
+            "uuid": "365fa2e1e30c355b19179fc7dc483d23"
+          }
+        ]
+      ],
+      "updateTime": 1704205095,
+      "createTime": 1703424339,
+      "histories": [],
+      "created_at": "2023-12-24 21:25:39",
+      "updated_at": "2024-01-02 22:18:15"
+    },
+    {
+      "uuid": "c712ad5c47ba3219c1f10ab6d810c6e3",
+      "puuid": "544bf39214eb7e165b12c4ebe5406c32",
+      "title": "PCB_ServoCtrlExt_mk1",
+      "filename": "PCB_ServoCtrlExt_mk1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "769279e654e54068ac9f491fc2098eaa": 1,
+        "b40d6e4cbc1440108c4aae2ba3760d0b": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 2,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "3f6ef94e1963401e9ceec09213ee59e4": 1,
+        "71450838f2174409b429143f6acc9d2a": 1
+      },
+      "BOM": [],
+      "updateTime": 1704210553,
+      "createTime": 1704205402,
+      "histories": [],
+      "created_at": "2024-01-02 22:23:22",
+      "updated_at": "2024-01-02 23:49:13"
+    }
+  ],
+  "sort": [],
+  "title": "ServoCtrlExt_mk1",
+  "foldername": "ServoCtrlExt_mk1",
+  "schfilename": "ServoCtrlExt_mk1.json",
+  "schfilemtime": 1704205095178
+}
